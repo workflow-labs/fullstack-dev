@@ -1,0 +1,36 @@
+{
+  "name": "fullstack-dev-marketplace",
+  "owner": {
+    "name": "workflow-labs"
+  },
+  "metadata": {
+    "description": "Fullstack development workflow: from PRD to working monorepo with React+Vite frontend and FastAPI backend. Module-by-module, feature-by-feature with testing gates.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "fullstack-dev",
+      "source": "./plugins/fullstack-dev",
+      "description": "Orchestrate fullstack development from PRD to working system. Analyzes PRD into modules and features, clones boilerplates, develops backend-first then frontend per feature, verifies integration contracts, pauses for user testing after each feature.",
+      "version": "0.1.0",
+      "author": {
+        "name": "workflow-labs"
+      },
+      "homepage": "https://github.com/workflow-labs/fullstack-dev",
+      "repository": "https://github.com/workflow-labs/fullstack-dev",
+      "license": "MIT",
+      "category": "development",
+      "tags": [
+        "fullstack",
+        "monorepo",
+        "react",
+        "fastapi",
+        "prd",
+        "boilerplate",
+        "module",
+        "feature",
+        "workflow"
+      ]
+    }
+  ]
+}

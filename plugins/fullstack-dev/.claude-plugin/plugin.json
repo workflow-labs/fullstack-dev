@@ -1,0 +1,23 @@
+{
+  "name": "fullstack-dev",
+  "description": "Fullstack development from PRD to working monorepo. Clones React+Vite and FastAPI boilerplates, designs system architecture, implements module-by-module with backend-first development and user testing gates after each feature.",
+  "version": "0.1.0",
+  "author": {
+    "name": "workflow-labs",
+    "url": "https://github.com/workflow-labs/fullstack-dev"
+  },
+  "homepage": "https://github.com/workflow-labs/fullstack-dev",
+  "repository": "https://github.com/workflow-labs/fullstack-dev",
+  "license": "MIT",
+  "keywords": [
+    "fullstack",
+    "monorepo",
+    "react",
+    "fastapi",
+    "prd",
+    "boilerplate",
+    "module",
+    "feature",
+    "workflow"
+  ]
+}
