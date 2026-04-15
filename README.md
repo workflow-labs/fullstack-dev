@@ -24,19 +24,18 @@ Based on:
 
 ## Installation
 
-Add to your Claude Code settings (`.claude/settings.json`):
+### Claude Code
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "fullstack-dev-marketplace": {
-      "source": { "source": "github", "repo": "workflow-labs/fullstack-dev" }
-    }
-  },
-  "enabledPlugins": {
-    "fullstack-dev@fullstack-dev-marketplace": true
-  }
-}
+#### Step 1: Add marketplace
+
+```bash
+/plugin marketplace add workflow-labs/fullstack-dev
+```
+
+#### Step 2: Install plugin
+
+```bash
+/plugin install fullstack-dev@fullstack-dev-marketplace
 ```
 
 ## Commands
